@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/WEB_CW05/static/css/main.7644ed9a.css",
+    "main.js": "/WEB_CW05/static/js/main.76531f3e.js",
+    "index.html": "/WEB_CW05/index.html",
+    "main.7644ed9a.css.map": "/WEB_CW05/static/css/main.7644ed9a.css.map",
+    "main.76531f3e.js.map": "/WEB_CW05/static/js/main.76531f3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7644ed9a.css",
+    "static/js/main.76531f3e.js"
+  ]
+}

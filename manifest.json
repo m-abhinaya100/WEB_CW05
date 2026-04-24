@@ -1,0 +1,9 @@
+{
+  "short_name": "CW-05",
+  "name": "CW-05 React Fundamentals",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4f46e5",
+  "background_color": "#0b1020"
+}
