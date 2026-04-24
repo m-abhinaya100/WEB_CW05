@@ -65,14 +65,3 @@ npm run build
 4. In the repo → **Settings → Pages**, confirm the source is the `gh-pages`
    branch. The site usually goes live in 2–5 minutes.
 
-## Submit
-
-Per the assignment brief, submit to the i-college CW folder:
-
-- The live GitHub Pages URL
-- These files: `HelloWorld.jsx`, `Counter.jsx`, `List.jsx`, `FilteredList.jsx`,
-  `App.js`
-- `REFLECTIONS.md`
-- Proof of custom styling (the `.css` files above)
-
-Due **April 23, 2026 @ 11:59 PM** — late submissions are not accepted.
