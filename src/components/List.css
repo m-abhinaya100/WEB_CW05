@@ -1,0 +1,79 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
+}
+
+.list__item:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(129, 140, 248, 0.35);
+}
+
+.list__badge {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.list__badge--fruit {
+  background: rgba(244, 114, 182, 0.18);
+}
+
+.list__badge--vegetable {
+  background: rgba(52, 211, 153, 0.18);
+}
+
+.list__body {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.list__name {
+  font-weight: 600;
+  color: #f1f5ff;
+}
+
+.list__type {
+  font-size: 0.8rem;
+  color: #9aa3c0;
+  letter-spacing: 0.02em;
+}
+
+.list--empty {
+  text-align: center;
+  padding: 2rem 1rem;
+  border: 1px dashed rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  color: #9aa3c0;
+}
+
+.list__empty-icon {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.list__empty-text {
+  margin: 0;
+  font-size: 0.95rem;
+}

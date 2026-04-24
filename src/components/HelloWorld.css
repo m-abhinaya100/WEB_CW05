@@ -1,0 +1,55 @@
+.hello {
+  text-align: center;
+  padding: 2.25rem 1.5rem;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.25), rgba(236, 72, 153, 0.2));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 60px rgba(10, 14, 30, 0.45);
+  backdrop-filter: blur(12px);
+}
+
+.hello__eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #b7bfff;
+  background: rgba(99, 102, 241, 0.18);
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+
+.hello__title {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  background: linear-gradient(90deg, #a5b4fc, #f0abfc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hello__wave {
+  display: inline-block;
+  margin-left: 0.5rem;
+  animation: wave 2.5s ease-in-out infinite;
+  transform-origin: 70% 70%;
+  -webkit-text-fill-color: initial;
+}
+
+.hello__subtitle {
+  margin: 0.75rem 0 0;
+  color: #c6cbe0;
+  font-size: 1rem;
+}
+
+@keyframes wave {
+  0%, 60%, 100% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+}
